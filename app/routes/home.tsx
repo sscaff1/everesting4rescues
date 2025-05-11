@@ -27,7 +27,7 @@ export default function Home() {
                 alt="Everesting 4 Rescues Logo"
                 className="w-24 h-24 rounded-full"
               />
-              <span className="text-xl font-bold">Climbing Mount Everest on a Trainer</span>
+              <span className="text-xl font-bold hidden sm:block">Climbing Mount Everest on a Trainer</span>
             </div>
             <div className="flex space-x-4">
               <a
@@ -108,7 +108,7 @@ export default function Home() {
               <span className="text-blue-200">🎥 Live Stream:</span> Full coverage on YouTube
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3">
-              <span className="text-blue-200">📅 Date:</span> December 20th, 2024
+              <span className="text-blue-200">📅 Date:</span> December 20th, 2025
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3">
               <span className="text-blue-200">🎯 Goal:</span> Support Wayside Waifs
@@ -121,7 +121,7 @@ export default function Home() {
       </div>
 
       {/* Challenge Details Section */}
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-xl p-8">
             <h2 className="text-3xl font-bold text-blue-600 mb-6">The Challenge</h2>
@@ -159,7 +159,7 @@ export default function Home() {
                     <li>• Number of Ascents: 8.5 times up Alpe du Zwift</li>
                     <li>• Elevation per Ascent: 3,415 ft (1,041m)</li>
                     <li>• Expected Duration: 10-12 hours (Please send coffee ☕)</li>
-                    <li>• Date: December 20th, 2024</li>
+                    <li>• Date: December 20th, 2025</li>
                     <li>• Platform: Zwift</li>
                     <li>• Live Stream: Full coverage on YouTube</li>
                   </ul>
@@ -178,7 +178,7 @@ export default function Home() {
       </div>
 
       {/* Wayside Waifs Section - Full Width */}
-      <div className="bg-green-50 py-16">
+      <div className="bg-green-50 py-8">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-lg shadow-xl p-8">
@@ -213,7 +213,7 @@ export default function Home() {
       </div>
 
       {/* Equipment Section - Full Width */}
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-xl p-8">
             <h2 className="text-3xl font-bold text-blue-800 mb-6">My Equipment</h2>
@@ -329,7 +329,7 @@ export default function Home() {
       </div>
 
       {/* Image Gallery Section */}
-      <div className="mt-16 bg-white rounded-lg shadow-xl p-8 max-w-4xl mx-auto">
+      <div className="bg-white rounded-lg shadow-xl p-8 max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Gallery</h2>
 
         {/* Bike Setup Gallery */}
@@ -395,7 +395,7 @@ export default function Home() {
       </div>
 
       {/* About Me Section */}
-      <div className="mt-16 bg-white rounded-lg shadow-xl p-8 max-w-4xl mx-auto">
+      <div className="mt-8 bg-white rounded-lg shadow-xl p-8 max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">About Me</h2>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="w-48 h-48 bg-gray-200 rounded-full flex-shrink-0">
@@ -418,7 +418,7 @@ export default function Home() {
       </div>
 
       {/* Call to Action */}
-      <div className="mt-16 text-center">
+      <div className="mt-12 text-center">
         <h2 className="text-3xl font-bold text-gray-900 mb-6">Join the Journey</h2>
         <p className="text-xl text-gray-600 mb-8">
           Watch the live stream on December 20th and help us make a difference!
