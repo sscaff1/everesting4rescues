@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
@@ -10,12 +12,12 @@ export default function Home() {
       </head>
       <div>
         {/* Hero Section - Above the Fold */}
-        <div className="relative bg-[url(images/hero.jpg)] bg-cover bg-center text-white">
+        <div className="relative bg-[url(/images/hero.jpg)] bg-cover bg-center text-white">
           <div className="relative">
             {/* Header with Logo */}
             <div className="flex items-center justify-between mb-8 py-4 px-24 bg-black/15">
               <div className="flex items-center space-x-4">
-                <img src="/images/logo.png" alt="Everesting 4 Rescues Logo" className="w-24 h-24 rounded-full" />
+                <Image src="/images/logo.png" alt="Everesting 4 Rescues Logo" className="w-24 h-24 rounded-full" width={96} height={96} />
                 <span className="text-xl font-bold hidden sm:block">Climbing Mount Everest on a Trainer</span>
               </div>
               <div className="flex space-x-4">
@@ -185,10 +187,12 @@ export default function Home() {
                     </a>
                   </div>
                   <div className="relative aspect-video bg-gray-100 rounded-lg overflow-hidden">
-                    <img
+                    <Image
                       src="/images/shelter-placeholder.jpg"
                       alt="Mid City Mutt Mamas Animal Shelter"
                       className="object-cover w-full h-full"
+                      width={500}
+                      height={500}
                     />
                   </div>
                 </div>
