@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { LiaMountainSolid } from 'react-icons/lia';
 
 export default function Home() {
   return (
@@ -15,79 +16,56 @@ export default function Home() {
         <div className="relative bg-[url(/images/hero.jpg)] bg-cover bg-center text-white">
           <div className="relative">
             {/* Header with Logo */}
-            <div className="flex items-center justify-between mb-8 py-4 px-24 bg-black/15">
-              <div className="flex items-center space-x-4">
-                <Image
-                  src="/images/logo.png"
-                  alt="Everesting 4 Rescues Logo"
-                  className="w-24 h-24 rounded-full"
-                  width={96}
-                  height={96}
-                />
-                <span className="text-xl font-bold hidden sm:block">Climbing Mount Everest on a Trainer</span>
-              </div>
-              <div className="flex space-x-4">
-                <a href="#" className="text-white hover:text-blue-200 transition-colors">
-                  Watch Live
-                </a>
-                <a
-                  href="https://www.midcitymutt.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-blue-200 transition-colors"
-                >
-                  Donate
-                </a>
-              </div>
-            </div>
-            {/* Main Hero Content */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 container mx-auto items-center">
-              <div className="text-left">
-                <h1 className="text-5xl font-bold mb-4">vEveresting for Mid City Mutt Mamas</h1>
-                <p className="text-xl text-blue-200 mb-6">
-                  Join me on December 20th as I attempt to climb 29,029 ft on Alpe du Zwift to support Mid City Mutt
-                  Mamas animal shelter. Zwift users are welcome to join for as many ascents as they&apos;d like! (No
-                  Sherpas required 🏔️)
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <a
-                    href="#"
-                    className="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors text-lg text-center"
-                  >
-                    Watch Live on YouTube
-                  </a>
-                  <a
-                    href="#"
-                    className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors text-lg text-center"
-                  >
-                    Join on Zwift
+            <div className="mb-8 bg-black/15 py-4">
+              <div className="container mx-auto flex items-center justify-between ">
+                <div className="flex items-center space-x-4">
+                  <Image
+                    src="/images/logo.png"
+                    alt="Everesting 4 Rescues Logo"
+                    className="w-24 h-24 rounded-full"
+                    width={96}
+                    height={96}
+                  />
+                  <span className="text-xl font-bold hidden sm:block">Climbing Mount Everest on a Trainer</span>
+                </div>
+                <div className="flex space-x-4">
+                  <a href="#" className="text-white hover:text-blue-200 transition-colors">
+                    Watch Live
                   </a>
                   <a
                     href="https://www.midcitymutt.org/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors text-lg text-center"
+                    className="text-white hover:text-blue-200 transition-colors"
                   >
-                    Donate Now
+                    Donate
                   </a>
                 </div>
+              </div>
+            </div>
+            {/* Main Hero Content */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 container mx-auto items-center">
+              <div className="text-left">
+                <h1 className="text-6xl font-bold text-white text-center text-shadow-lg">
+                  vEveresting for Rescue Dogs
+                </h1>
               </div>
 
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                <div className="bg-black/25 backdrop-blur-xl rounded-lg p-4 text-center">
                   <div className="text-3xl font-bold text-blue-200">29,029</div>
                   <div className="text-blue-100">Feet to Climb</div>
                 </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                <div className="bg-black/25 backdrop-blur-xl rounded-lg p-4 text-center">
                   <div className="text-3xl font-bold text-blue-200">8.5</div>
                   <div className="text-blue-100">Alpe du Zwift Ascents</div>
                 </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                <div className="bg-black/25 backdrop-blur-xl rounded-lg p-4 text-center">
                   <div className="text-3xl font-bold text-blue-200">10-12</div>
                   <div className="text-blue-100">Hours of Riding</div>
                 </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                <div className="bg-black/25 backdrop-blur-xl rounded-lg p-4 text-center">
                   <div className="text-3xl font-bold text-green-400">100%</div>
                   <div className="text-blue-100">To Mid City Mutt Mamas</div>
                 </div>
@@ -95,86 +73,139 @@ export default function Home() {
             </div>
             {/* Quick Info Bar */}
             <div className="relative py-12 grid grid-cols-1 md:grid-cols-4 gap-4 text-center container mx-auto">
-              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3">
+              <div className="bg-black/25 backdrop-blur-xl rounded-lg p-3">
                 <span className="text-blue-200">🎥 Live Stream:</span> Full coverage on YouTube
               </div>
-              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3">
+              <div className="bg-black/25 backdrop-blur-xl rounded-lg p-3">
                 <span className="text-blue-200">📅 Date:</span> December 20th, 2025
               </div>
-              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3">
+              <div className="bg-black/25 backdrop-blur-xl rounded-lg p-3">
                 <span className="text-blue-200">🎯 Goal:</span> Support Mid City Mutt Mamas
               </div>
-              <div className="bg-white/5 backdrop-blur-sm rounded-lg p-3">
+              <div className="bg-black/25 backdrop-blur-xl rounded-lg p-3">
                 <span className="text-blue-200">🚴 Join:</span> Ride with me on Zwift
               </div>
             </div>
           </div>
         </div>
 
-        {/* Challenge Details Section */}
-        <div className="container mx-auto px-4 py-8">
+        <div className="bg-white py-12">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg shadow-xl p-8">
-              <h2 className="text-3xl font-bold text-blue-600 mb-6">The Challenge</h2>
-              <div className="space-y-6">
-                <div className="prose max-w-none">
-                  <h3 className="text-2xl font-semibold text-gray-800 mb-3">What is Virtual Everesting?</h3>
-                  <p className="text-lg text-gray-700 mb-4">
-                    A virtual Everest challenge involves climbing the equivalent height of Mount Everest (29,029 ft /
-                    8,848m) in a single ride on a smart trainer. Think of it as climbing Everest, but with better WiFi
-                    and no risk of frostbite. This is one of cycling&apos;s toughest endurance challenges, typically
-                    taking 10-12 hours to complete at high power output. It requires not just physical strength, but
-                    also mental fortitude, careful nutrition management, and strategic pacing.
-                  </p>
-
-                  <h3 className="text-2xl font-semibold text-gray-800 mb-3">Join the Challenge</h3>
-                  <p className="text-lg text-gray-700 mb-4">
-                    While I&apos;ll be attempting the full Everest challenge, Zwift users are welcome to join me for any
-                    number of ascents! Whether you want to ride one climb or several, you can be part of this event and
-                    help support Mid City Mutt Mamas. The more riders we have, the more awareness we can raise for this
-                    great cause. Look for the meetup link closer to the event date.
-                  </p>
-
-                  <h3 className="text-2xl font-semibold text-gray-800 mb-3">The Route: Alpe du Zwift</h3>
-                  <p className="text-lg text-gray-700 mb-4">
-                    I&apos;ll be tackling this challenge on the iconic Alpe du Zwift, a virtual climb that mirrors the
-                    famous Alpe d&apos;Huez. Each ascent of Alpe du Zwift gains approximately 3,415 ft (1,041m) of
-                    elevation. To reach Everest&apos;s height, I&apos;ll need to complete 8.5 ascents of this virtual
-                    mountain, totaling over 29,000 ft of climbing. I&apos;ll be maintaining a high power output
-                    throughout the challenge to complete it in 10-12 hours. (Yes, I&apos;ve been told this is a bit
-                    crazy 🤪)
-                  </p>
-
-                  <div className="bg-blue-50 p-6 rounded-lg mt-6">
-                    <h4 className="text-xl font-semibold text-blue-800 mb-3">Challenge Details</h4>
-                    <ul className="space-y-2 text-gray-700">
-                      <li>• Total Elevation: 29,029 ft (8,848m)</li>
-                      <li>• Number of Ascents: 8.5 times up Alpe du Zwift</li>
-                      <li>• Elevation per Ascent: 3,415 ft (1,041m)</li>
-                      <li>• Expected Duration: 10-12 hours (Please send coffee ☕)</li>
-                      <li>• Date: December 20th, 2025</li>
-                      <li>• Platform: Zwift</li>
-                      <li>• Live Stream: Full coverage on YouTube</li>
-                    </ul>
-                  </div>
-
-                  <p className="text-lg text-gray-700 mt-6">
-                    This challenge is not just about the physical achievement - it&apos;s about raising awareness and
-                    support for Mid City Mutt Mamas. Every pedal stroke and every foot of elevation gained will help
-                    provide care for animals in need. Join me on this journey, either by watching the live stream or by
-                    making a donation to support this worthy cause.
-                  </p>
-                </div>
+            <div className="text-center">
+              <p className="text-xl mb-6 text-black">
+                Join me on December 20th as I attempt to climb 29,029 ft on Alpe du Zwift to support{' '}
+                <a
+                  className="text-blue-600 hover:text-blue-800 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.midcitymutt.org"
+                >
+                  Mid City Mutt Mamas
+                </a>
+                . Zwift users are welcome to join for as many ascents as they&apos;d like! (No Sherpas required 🏔️)
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="#"
+                  className="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors text-lg text-center"
+                >
+                  Watch Live on YouTube
+                </a>
+                <a
+                  href="#"
+                  className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors text-lg text-center"
+                >
+                  Join on Zwift
+                </a>
+                <a
+                  href="https://www.midcitymutt.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors text-lg text-center"
+                >
+                  Donate Now
+                </a>
               </div>
             </div>
           </div>
         </div>
 
+        {/* Challenge Details Section */}
+
+        <div className="bg-[#32578f] py-12 text-white">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-5xl font-bold mb-6 flex items-center gap-2">
+              <LiaMountainSolid className="inline-block text-6xl" />
+              The Challenge
+            </h2>
+            <div className="space-y-6">
+              <div className="prose max-w-none">
+                <h3 className="text-2xl font-semibold mb-3">What is Virtual Everesting?</h3>
+                <p className="text-lg mb-4">
+                  A virtual Everest challenge involves climbing the equivalent height of Mount Everest (29,029 ft /
+                  8,848m) in a single ride on a smart trainer. Think of it as climbing Everest, but with better WiFi and
+                  no risk of frostbite. This is one of cycling&apos;s toughest endurance challenges, typically taking
+                  10-12 hours to complete at high power output. It requires not just physical strength, but also mental
+                  fortitude, careful nutrition management, and strategic pacing.
+                </p>
+
+                <h3 className="text-2xl font-semibold mb-3">Join the Challenge</h3>
+                <p className="text-lg mb-4">
+                  While I&apos;ll be attempting the full Everest challenge, Zwift users are welcome to join me for any
+                  number of ascents! Whether you want to ride one climb or several, you can be part of this event and
+                  help support Mid City Mutt Mamas. The more riders we have, the more awareness we can raise for this
+                  great cause. Look for the meetup link closer to the event date.
+                </p>
+
+                <h3 className="text-2xl font-semibold mb-3">The Route: Alpe du Zwift</h3>
+                <p className="text-lg">
+                  I&apos;ll be tackling this challenge on the iconic Alpe du Zwift, a virtual climb that mirrors the
+                  famous Alpe d&apos;Huez. Each ascent of Alpe du Zwift gains approximately 3,415 ft (1,041m) of
+                  elevation. To reach Everest&apos;s height, I&apos;ll need to complete 8.5 ascents of this virtual
+                  mountain, totaling over 29,000 ft of climbing. I&apos;ll be maintaining a high power output throughout
+                  the challenge to complete it in 10-12 hours. (Yes, I&apos;ve been told this is a bit crazy 🤪)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="relative py-12">
+          <Image
+            src="/images/challenge-details.png"
+            alt="Challenge Details"
+            className="absolute inset-0 w-full h-full object-cover opacity-60"
+            width={1500}
+            height={1500}
+          />
+          <div className="container mx-auto text-center font-bold text-shadow-lg text-white relative z-10">
+            <h4 className="text-4xl mb-3">Challenge Details</h4>
+            <ul className="space-y-2 text-lg list-none">
+              <li>Total Elevation: 29,029 ft (8,848m)</li>
+              <li>Number of Ascents: 8.5 times up Alpe du Zwift</li>
+              <li>Elevation per Ascent: 3,415 ft (1,041m)</li>
+              <li>Expected Duration: 10-12 hours (Please send coffee ☕)</li>
+              <li>Date: December 20th, 2025</li>
+              <li>Platform: Zwift</li>
+              <li>Live Stream: Full coverage on YouTube</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="bg-white">
+          <p className="text-xl text-gray-700 py-12 max-w-3xl mx-auto">
+            This challenge is not just about the physical achievement - it&apos;s about raising awareness and support
+            for Mid City Mutt Mamas. Every pedal stroke and every foot of elevation gained will help provide care for
+            animals in need. Join me on this journey, either by watching the live stream or by making a donation to
+            support this worthy cause.
+          </p>
+        </div>
+
         {/* Mid City Mutt Mamas Section - Full Width */}
-        <div className="bg-green-50 py-8">
+        <div className="bg-[#dde1ec] py-8">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="bg-white rounded-lg shadow-xl p-8">
+              <div>
                 <h2 className="text-3xl font-bold text-green-800 mb-6">Support Mid City Mutt Mamas</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
