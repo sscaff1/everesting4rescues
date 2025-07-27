@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -17,7 +17,13 @@ export default function Home() {
             {/* Header with Logo */}
             <div className="flex items-center justify-between mb-8 py-4 px-24 bg-black/15">
               <div className="flex items-center space-x-4">
-                <Image src="/images/logo.png" alt="Everesting 4 Rescues Logo" className="w-24 h-24 rounded-full" width={96} height={96} />
+                <Image
+                  src="/images/logo.png"
+                  alt="Everesting 4 Rescues Logo"
+                  className="w-24 h-24 rounded-full"
+                  width={96}
+                  height={96}
+                />
                 <span className="text-xl font-bold hidden sm:block">Climbing Mount Everest on a Trainer</span>
               </div>
               <div className="flex space-x-4">
