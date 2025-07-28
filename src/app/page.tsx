@@ -16,7 +16,7 @@ export default function Home() {
         <div className="relative bg-[url(/images/hero.jpg)] bg-cover bg-center text-white">
           <div className="relative">
             {/* Header with Logo */}
-            <div className="mb-8 bg-black/15 py-4">
+            <div className="mb-8 bg-black/15 py-4 px-8">
               <div className="container mx-auto flex items-center justify-between ">
                 <div className="flex items-center space-x-4">
                   <Image
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
             </div>
             {/* Main Hero Content */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 container mx-auto items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 container mx-auto items-center px-8">
               <div className="text-left">
                 <h1 className="text-6xl font-bold text-white text-center text-shadow-lg">
                   vEveresting for Rescue Dogs
@@ -72,7 +72,7 @@ export default function Home() {
               </div>
             </div>
             {/* Quick Info Bar */}
-            <div className="relative py-12 grid grid-cols-1 md:grid-cols-4 gap-4 text-center container mx-auto">
+            <div className="relative py-12 grid grid-cols-1 md:grid-cols-4 gap-4 text-center container mx-auto px-8">
               <div className="bg-black/25 backdrop-blur-xl rounded-lg p-3">
                 <span className="text-blue-200">🎥 Live Stream:</span> Full coverage on YouTube
               </div>
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-white py-12">
+        <div className="bg-white py-12 px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center">
               <p className="text-xl mb-6 text-black">
@@ -131,8 +131,7 @@ export default function Home() {
         </div>
 
         {/* Challenge Details Section */}
-
-        <div className="bg-[#32578f] py-12 text-white">
+        <div className="bg-[#32578f] py-12 text-white px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-5xl font-bold mb-6 flex items-center gap-2">
               <LiaMountainSolid className="inline-block text-6xl" />
@@ -170,7 +169,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative py-12">
+        <div className="relative py-12 px-4">
           <Image
             src="/images/challenge-details.png"
             alt="Challenge Details"
@@ -192,7 +191,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-white">
+        <div className="bg-white px-8">
           <p className="text-xl text-gray-700 py-12 max-w-3xl mx-auto">
             This challenge is not just about the physical achievement - it&apos;s about raising awareness and support
             for Mid City Mutt Mamas. Every pedal stroke and every foot of elevation gained will help provide care for
