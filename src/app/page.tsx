@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { LiaMountainSolid } from 'react-icons/lia';
+import { TbBrandZwift, TbPigMoney, TbBrandYoutubeFilled } from 'react-icons/tb';
 
 export default function Home() {
   return (
@@ -109,13 +110,13 @@ export default function Home() {
                   href="#"
                   className="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors text-lg text-center"
                 >
-                  Watch Live on YouTube
+                  <TbBrandYoutubeFilled className="inline-block text-2xl" /> Watch Live on YouTube
                 </a>
                 <a
                   href="#"
                   className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors text-lg text-center"
                 >
-                  Join on Zwift
+                  <TbBrandZwift className="inline-block text-2xl" /> Join on Zwift
                 </a>
                 <a
                   href="https://www.midcitymutt.org/"
@@ -123,7 +124,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="inline-block bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors text-lg text-center"
                 >
-                  Donate Now
+                  <TbPigMoney className="inline-block text-2xl" /> Donate Now
                 </a>
               </div>
             </div>
