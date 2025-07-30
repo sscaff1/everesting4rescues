@@ -48,7 +48,7 @@ export default function Home() {
             {/* Main Hero Content */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 container mx-auto items-center px-8">
               <div className="text-left">
-                <h1 className="text-6xl font-bold text-white text-center text-shadow-lg">
+                <h1 className="text-3xl sm:text-6xl font-bold text-white text-center text-shadow-lg">
                   vEveresting for Rescue Dogs
                 </h1>
               </div>
