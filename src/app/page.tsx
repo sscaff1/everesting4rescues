@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { LiaMountainSolid } from 'react-icons/lia';
 import { TbBrandZwift, TbPigMoney, TbBrandYoutubeFilled } from 'react-icons/tb';
+import CountUp from '@/components/CountUp';
 
 export default function Home() {
   return (
@@ -55,7 +56,16 @@ export default function Home() {
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-black/25 backdrop-blur-xl rounded-lg p-4 text-center">
-                  <div className="text-3xl font-bold text-blue-200">29,029</div>
+                  <div className="text-3xl font-bold text-blue-200 tabular-nums">
+                    <CountUp
+                      from={0}
+                      to={29029}
+                      separator=","
+                      direction="up"
+                      duration={0.3}
+                      className="count-up-text"
+                    />
+                  </div>
                   <div className="text-blue-100">Feet to Climb</div>
                 </div>
                 <div className="bg-black/25 backdrop-blur-xl rounded-lg p-4 text-center">
