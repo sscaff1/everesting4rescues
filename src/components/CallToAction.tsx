@@ -1,3 +1,4 @@
+import { MID_CITY_MUTT_MAMAS_URL } from '@/constants';
 import CallToActionButtons from './CallToActionButtons';
 
 function CallToAction() {
@@ -11,7 +12,7 @@ function CallToAction() {
               className="text-blue-600 hover:text-blue-800 underline"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.midcitymutt.org"
+              href={MID_CITY_MUTT_MAMAS_URL}
             >
               Mid City Mutt Mamas
             </a>

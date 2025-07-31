@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import CallToAction from '@/components/CallToAction';
 import Challenge from '@/components/Challenge';
 import CallToActionButtons from '@/components/CallToActionButtons';
+import { MID_CITY_MUTT_MAMAS_URL } from '@/constants';
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
                     joyful life. 100% of all donations will go directly to supporting their mission.
                   </p>
                   <a
-                    href="https://www.midcitymutt.org/"
+                    href={MID_CITY_MUTT_MAMAS_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#202d46] text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
@@ -54,32 +55,36 @@ export default function Home() {
         </div>
 
         {/* About Me Section */}
-        <div className="bg-white py-12 px-32">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">About Me</h2>
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <Image src="/images/profile.jpg" alt="Profile" width={192} height={192} className="rounded-full" />
-            <div className="text-left">
-              <p className="text-lg text-gray-700 mb-4">
-                As a software architect in fintech and an avid cyclist, I&apos;m combining my passion for technology and
-                cycling to make a difference. This virtual Everest challenge is not just about the physical achievement,
-                but about raising awareness and support for Mid City Mutt Mamas.
-              </p>
-              <p className="text-lg text-gray-700">
-                Follow my journey on YouTube as I stream the entire event live on December 20th. Your support and
-                encouragement will help me push through this challenging ride! (Virtual high-fives welcome 🖐️)
-              </p>
+        <div className="bg-white py-12 px-8">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 pl-4">About Me</h2>
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <Image src="/images/profile.jpg" alt="Profile" width={192} height={192} className="rounded-full" />
+              <div className="text-left">
+                <p className="text-lg text-gray-700 mb-4">
+                  As a software architect in fintech and an avid cyclist, I&apos;m combining my passion for technology
+                  and cycling to make a difference. This virtual Everest challenge is not just about the physical
+                  achievement, but about raising awareness and support for Mid City Mutt Mamas.
+                </p>
+                <p className="text-lg text-gray-700">
+                  Follow my journey on YouTube as I stream the entire event live on December 20th. Your support and
+                  encouragement will help me push through this challenging ride! (Virtual high-fives welcome 🖐️)
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        {/* Call to Action */}
-        <div className="text-center bg-white pb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">Join the Journey</h2>
-          <p className="text-xl text-gray-600 mb-8">
-            Watch the live stream on December 20th and help us make a difference!
-          </p>
-          <div className="max-w-4xl mx-auto">
-            <CallToActionButtons />
+          {/* Call to Action */}
+          <div className="max-w-4xl mx-auto mt-12">
+            <div className="text-center bg-white">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Join the Journey</h2>
+              <p className="text-xl text-gray-600 mb-8">
+                Watch the live stream on December 20th and help us make a difference!
+              </p>
+              <div className="max-w-4xl mx-auto">
+                <CallToActionButtons />
+              </div>
+            </div>
           </div>
         </div>
       </div>
