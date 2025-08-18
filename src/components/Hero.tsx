@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import CountUp from '@/components/CountUp';
-import { YOUTUBE_URL, DONATION_URL } from '@/constants';
+// import { YOUTUBE_URL, DONATION_URL } from '@/constants';
 
 function Hero() {
   return (
@@ -19,7 +19,7 @@ function Hero() {
               />
               <span className="text-xl font-bold hidden sm:block">Climbing Mount Everest on a Trainer</span>
             </div>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href={YOUTUBE_URL} className="text-white hover:text-blue-200 transition-colors">
                 Watch Live
               </a>
@@ -31,7 +31,7 @@ function Hero() {
               >
                 Donate
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* Main Hero Content */}
