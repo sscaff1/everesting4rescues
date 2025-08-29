@@ -1,5 +1,5 @@
-import { TbBrandYoutubeFilled, TbBrandZwift, TbPigMoney } from 'react-icons/tb';
-import { YOUTUBE_URL, ZWIFT_URL, DONATION_URL } from '@/constants';
+import { TbBrandYoutubeFilled, TbPigMoney, TbBrandStrava } from 'react-icons/tb';
+import { YOUTUBE_URL, DONATION_URL, STRAVA_URL } from '@/constants';
 
 const BUTTONS = [
   {
@@ -9,19 +9,26 @@ const BUTTONS = [
     backgroundColor: 'bg-red-600',
     hoverColor: 'hover:bg-red-700',
   },
-  {
-    label: 'Join on Zwift',
-    icon: TbBrandZwift,
-    href: ZWIFT_URL,
-    backgroundColor: 'bg-purple-600',
-    hoverColor: 'hover:bg-purple-700',
-  },
+  // {
+  //   label: 'Join on Zwift',
+  //   icon: TbBrandZwift,
+  //   href: ZWIFT_URL,
+  //   backgroundColor: 'bg-purple-600',
+  //   hoverColor: 'hover:bg-purple-700',
+  // },
   {
     label: 'Donate Now',
     icon: TbPigMoney,
     href: DONATION_URL,
     backgroundColor: 'bg-green-600',
     hoverColor: 'hover:bg-green-700',
+  },
+  {
+    label: 'Strava',
+    icon: TbBrandStrava,
+    href: STRAVA_URL,
+    backgroundColor: 'bg-blue-600',
+    hoverColor: 'hover:bg-blue-700',
   },
 ];
 

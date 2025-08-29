@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Hero from '@/components/Hero';
-// import CallToAction from '@/components/CallToAction';
+import CallToAction from '@/components/CallToAction';
 import Challenge from '@/components/Challenge';
-// import CallToActionButtons from '@/components/CallToActionButtons';
+import CallToActionButtons from '@/components/CallToActionButtons';
 import { MID_CITY_MUTT_MAMAS_URL } from '@/constants';
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       </head>
       <div>
         <Hero />
-        {/* <CallToAction /> */}
+        <CallToAction />
         <Challenge />
         {/* Mid City Mutt Mamas Section - Full Width */}
         <div className="bg-[#dde1ec] py-8 text-[#202d46]">
@@ -81,9 +81,9 @@ export default function Home() {
               <p className="text-xl text-gray-600 mb-8">
                 Watch the live stream on December 20th and help us make a difference!
               </p>
-              {/* <div className="max-w-4xl mx-auto">
+              <div className="max-w-4xl mx-auto">
                 <CallToActionButtons />
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
