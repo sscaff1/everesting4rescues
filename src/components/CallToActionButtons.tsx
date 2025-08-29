@@ -40,6 +40,8 @@ function CallToActionButtons() {
           key={button.label}
           href={button.href}
           className={`flex items-center justify-items-center text-center ${button.backgroundColor} text-white px-8 py-3 rounded-lg font-semibold ${button.hoverColor} transition-colors text-lg text-center flex-1`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <button.icon className="inline-block text-2xl" />
           <span className="flex-1">{button.label}</span>

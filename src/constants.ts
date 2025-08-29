@@ -1,4 +1,4 @@
-export const YOUTUBE_URL = 'https://www.youtube.com/@stevenscaffidi';
+export const YOUTUBE_URL = 'https://www.youtube.com/@steven_scaffidi';
 export const ZWIFT_URL = 'https://zwiftinsider.com/zwift-virtual-everest-challenge-to-support-mid-city-mutt-mamas/';
 export const STRAVA_URL = 'https://www.strava.com/athletes/114359616';
 export const DONATION_URL = 'https://gofund.me/cec5e37d';
