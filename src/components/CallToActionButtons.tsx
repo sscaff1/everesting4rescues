@@ -1,5 +1,5 @@
-import { TbBrandYoutubeFilled, TbPigMoney, TbBrandStrava } from 'react-icons/tb';
-import { YOUTUBE_URL, DONATION_URL, STRAVA_URL } from '@/constants';
+import { TbBrandYoutubeFilled, TbPigMoney, TbBrandStrava, TbBrandZwift } from 'react-icons/tb';
+import { YOUTUBE_URL, DONATION_URL, STRAVA_URL, ZWIFT_URL } from '@/constants';
 
 const BUTTONS = [
   {
@@ -9,13 +9,13 @@ const BUTTONS = [
     backgroundColor: 'bg-red-600',
     hoverColor: 'hover:bg-red-700',
   },
-  // {
-  //   label: 'Join on Zwift',
-  //   icon: TbBrandZwift,
-  //   href: ZWIFT_URL,
-  //   backgroundColor: 'bg-purple-600',
-  //   hoverColor: 'hover:bg-purple-700',
-  // },
+  {
+    label: 'Join on Zwift',
+    icon: TbBrandZwift,
+    href: ZWIFT_URL,
+    backgroundColor: 'bg-purple-600',
+    hoverColor: 'hover:bg-purple-700',
+  },
   {
     label: 'Donate Now',
     icon: TbPigMoney,
@@ -27,8 +27,8 @@ const BUTTONS = [
     label: 'Strava',
     icon: TbBrandStrava,
     href: STRAVA_URL,
-    backgroundColor: 'bg-blue-600',
-    hoverColor: 'hover:bg-blue-700',
+    backgroundColor: 'bg-[#FC5201]',
+    hoverColor: 'hover:bg-[#c94101]',
   },
 ];
 
@@ -39,12 +39,12 @@ function CallToActionButtons() {
         <a
           key={button.label}
           href={button.href}
-          className={`flex items-center justify-items-center text-center ${button.backgroundColor} text-white px-8 py-3 rounded-lg font-semibold ${button.hoverColor} transition-colors text-lg text-center flex-1`}
+          className={`flex items-center justify-items-center text-center ${button.backgroundColor} text-white px-8 py-3 rounded-lg font-semibold ${button.hoverColor} transition-colors min-h-[75px]`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <button.icon className="inline-block text-2xl" />
-          <span className="flex-1">{button.label}</span>
+          <span className="ml-2 text-md">{button.label}</span>
         </a>
       ))}
     </div>
