@@ -57,7 +57,7 @@ function Challenge() {
             <li>Number of Ascents: 8.5 times up Alpe du Zwift</li>
             <li>Elevation per Ascent: 3,415 ft (1,041m)</li>
             <li>Expected Duration: 10-12 hours (Please send coffee ☕)</li>
-            <li>Date: December 20th, 2025</li>
+            <li>Date: December 20th, 2025 starting at 5:30AM CST</li>
             <li>Platform: Zwift</li>
             <li>Live Stream: Full coverage on YouTube</li>
           </ul>

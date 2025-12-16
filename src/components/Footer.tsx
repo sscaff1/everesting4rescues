@@ -9,8 +9,8 @@ function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-xl font-bold mb-4">Everesting 4 Rescues</h3>
             <p className="text-gray-400 mb-4">
-              A virtual Everest challenge to support Mid City Mutt Mamas animal shelter. Join us on December 20th as we
-              climb 29,029 ft on Alpe du Zwift.
+              A virtual Everest challenge to support Mid City Mutt Mamas animal shelter. Join us on December 20th
+              starting at 5:30AM CST as we climb 29,029 ft on Alpe du Zwift.
             </p>
           </div>
 

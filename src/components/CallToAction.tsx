@@ -7,7 +7,7 @@ function CallToAction() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center">
           <p className="text-xl mb-6 text-black">
-            Join me on December 20th as I attempt to climb 29,029 ft on Alpe du Zwift to support{' '}
+            Join me on December 20th starting at 5:30AM CST as I attempt to climb 29,029 ft on Alpe du Zwift to support{' '}
             <a
               className="text-blue-600 hover:text-blue-800 underline"
               target="_blank"

@@ -70,7 +70,7 @@ function Hero() {
             <span className="text-blue-200">🎥 Live Stream:</span> Full coverage on YouTube
           </div>
           <div className="bg-black/25 backdrop-blur-xl rounded-lg p-3">
-            <span className="text-blue-200">📅 Date:</span> December 20th, 2025
+            <span className="text-blue-200">📅 Date:</span> December 20th, 2025 starting at 5:30AM CST
           </div>
           <div className="bg-black/25 backdrop-blur-xl rounded-lg p-3">
             <span className="text-blue-200">🎯 Goal:</span> Support Mid City Mutt Mamas

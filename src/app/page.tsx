@@ -67,8 +67,9 @@ export default function Home() {
                   achievement, but about raising awareness and support for Mid City Mutt Mamas.
                 </p>
                 <p className="text-lg text-gray-700">
-                  Follow my journey on YouTube as I stream the entire event live on December 20th. Your support and
-                  encouragement will help me push through this challenging ride! (Virtual high-fives welcome 🖐️)
+                  Follow my journey on YouTube as I stream the entire event live on December 20th starting at 5:30AM
+                  CST. Your support and encouragement will help me push through this challenging ride! (Virtual
+                  high-fives welcome 🖐️)
                 </p>
               </div>
             </div>
@@ -79,7 +80,7 @@ export default function Home() {
             <div className="text-center bg-white">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Join the Journey</h2>
               <p className="text-xl text-gray-600 mb-8">
-                Watch the live stream on December 20th and help us make a difference!
+                Watch the live stream on December 20th starting at 5:30AM CST and help us make a difference!
               </p>
               <div className="max-w-4xl mx-auto">
                 <CallToActionButtons />
